@@ -1,0 +1,30 @@
+/* src/Navbar.css */
+.navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.menu.active {
+    background-color: #1a1a1a; /* Same as the background color */
+    border-radius: 10px 0px 0px 10px;
+}
+
